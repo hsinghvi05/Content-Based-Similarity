@@ -118,6 +118,7 @@ def overlap(a,b):
 i=1
 docs=[]
 class_label=[]
+#update path here
 for di in os.listdir('/Users/chajedaman/Downloads/DUC2001_Summarization_Documents/data/training'):
     if len(di)==4:
         path = '/Users/chajedaman/Downloads/DUC2001_Summarization_Documents/data/training/'+di+'/docs'
@@ -132,6 +133,7 @@ doc_frame['docs'] = doc_frame['docs'].apply(replace_)
 docs=[]
 class_label=[]
 i=1
+#update path here
 for di in os.listdir('/Users/chajedaman/Downloads/DUC2001_Summarization_Documents/data/test/docs'):
     if len(di)==4:
         path = '/Users/chajedaman/Downloads/DUC2001_Summarization_Documents/data/test/docs/'+di
